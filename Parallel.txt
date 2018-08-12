@@ -1,0 +1,82 @@
+                      Swapper started
+                                              Swapper started
+                                          Swapper started
+                              Swapper started
+                                  Swapper started
+              Swapper started
+                  Swapper started
+                                      Swapper started
+          Swapper started
+                          Swapper started
+                      for process 4 j is: 0
+                      Process 4 has locked mutex: 3
+                  for process 3 j is: 3
+                                      for process 8 j is: 2
+          for process 1 j is: 1
+                      Process 4 has locked mutex: 0
+                              for process 6 j is: 4
+                  Process 3 has locked mutex: 2
+                      Process 4 has swapped
+                                      Process 8 has locked mutex: 7
+                  Process 3 has locked mutex: 3
+                      Process 4 has unlocked mutex: 0
+                          for process 5 j is: 9
+                      Process 4 has released mutex: 3 
+                  Process 3 has swapped
+                                  for process 7 j is: 8
+              for process 2 j is: 4
+          Process 1 has locked mutex: 0
+                      Process 4 is done
+                          Process 5 has locked mutex: 4
+              Process 2 has locked mutex: 1
+                  Process 3 has unlocked mutex: 3
+                              Process 6 has locked mutex: 5
+          Process 1 has locked mutex: 1
+                                              for process 10 j is: 5
+                          Process 5 has locked mutex: 9
+                  Process 3 has released mutex: 2 
+                                  Process 7 has locked mutex: 6
+                                      Process 8 has locked mutex: 2
+                          Process 5 has swapped
+                  Process 3 is done
+                          Process 5 has unlocked mutex: 9
+          Process 1 has swapped
+                                  Process 7 has locked mutex: 8
+                                              Process 10 has locked mutex: 9
+                                      Process 8 has swapped
+                                  Process 7 has swapped
+          Process 1 has unlocked mutex: 1
+                                  Process 7 has unlocked mutex: 8
+          Process 1 has released mutex: 0 
+                          Process 5 has released mutex: 4 
+                                      Process 8 has unlocked mutex: 2
+          Process 1 is done
+                          Process 5 is done
+                                      Process 8 has released mutex: 7 
+                              Process 6 has locked mutex: 4
+                                          for process 9 j is: 9
+                                      Process 8 is done
+              Process 2 has locked mutex: 4
+                                  Process 7 has released mutex: 6 
+                                          Process 9 has locked mutex: 8
+              Process 2 has swapped
+                                  Process 7 is done
+              Process 2 has unlocked mutex: 4
+                                          Process 9 has locked mutex: 9
+              Process 2 has released mutex: 1 
+                              Process 6 has swapped
+              Process 2 is done
+                              Process 6 has unlocked mutex: 4
+      A[N-1]= 6
+                              Process 6 has released mutex: 5 
+                                          Process 9 has swapped
+                              Process 6 is done
+                                          Process 9 has unlocked mutex: 9
+                                              Process 10 has locked mutex: 5
+                                          Process 9 has released mutex: 8 
+                                          Process 9 is done
+                                              Process 10 has swapped
+                                              Process 10 has unlocked mutex: 5
+                                              Process 10 has released mutex: 9 
+                                              Process 10 is done
+11 processes created
